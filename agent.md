@@ -17,9 +17,12 @@
 - 2026-10-26：使用者學會在 Antigravity 直接編輯 bank_mc.js，10:45 有手動修改（語法檢查通過）
 - 2026-10-26：修正 bank_mc.js 第 240–248 行錯題（原「亻＋爾」答案誤設為「你」→ 改為「亻＋尔＝你」）
 
+- 2026-10-26：實測通過，git init + 公開 repo + GitHub Pages 部署完成
+  - Repo：https://github.com/grethel1988-ai/neverland-lost-chapter-2
+  - 網址：https://grethel1988-ai.github.io/neverland-lost-chapter-2/
+
 ## 下一步
-- 使用者實測，調整台詞、題目、版面
-- 確認後再 git init 與部署
+- 線上版確認可玩；之後修改直接 commit + push 即自動更新
 
 ## 踩坑
 - Windows 的 `python` 是 Store stub，請用 `py -X utf8`
