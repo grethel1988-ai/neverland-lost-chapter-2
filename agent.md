@@ -20,6 +20,7 @@
 - 2026-10-26：實測通過，git init + 公開 repo + GitHub Pages 部署完成
   - Repo：https://github.com/grethel1988-ai/neverland-lost-chapter-2
   - 網址：https://grethel1988-ai.github.io/neverland-lost-chapter-2/
+- 2026-11-01：完成第二部 11 個遊戲畫面擷取（`1600×900`）與高解析度總覽圖拼接（`畫面設計總覽.png`、`畫面設計總覽_無字版.png`）
 
 ## 下一步
 - 線上版確認可玩；之後修改直接 commit + push 即自動更新
@@ -27,3 +28,4 @@
 ## 踩坑
 - Windows 的 `python` 是 Store stub，請用 `py -X utf8`
 - docx 轉檔用 python-docx 腳本（scratch/conv.py、build_bank.py）
+- 以 Headless Chrome + CDP 自動擷取遊戲對話畫面時，需先清除 `typeText` 的 `setInterval` 計時器再填入完整台詞，避免逐字打字機計時器覆寫文字造成截圖台詞被截斷
